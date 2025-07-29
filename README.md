@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Central Kurdish Universal Dependencies Treebank
 
 UD Version: 2
@@ -250,6 +251,26 @@ For more detailed explanation of tagging and labeling, refer to the UD Guideline
 
 
 ---
+=======
+# Summary
+
+... 1-2 sentences (see [release checklist](http://universaldependencies.org/contributing/release_checklist.html#the-readme-file) for README guidelines) ...
+
+
+# Introduction
+
+...
+
+
+# Acknowledgments
+
+...
+
+## References
+
+* (citation)
+
+>>>>>>> 9e5f537cd4188bb04f0c2947eb040b7750e34be4
 
 # Changelog
 
@@ -268,8 +289,16 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
+<<<<<<< HEAD
 Contributors: Talamo, Luigi; Asadpour, Hiwa; Verkerk, Annemarie; Vaz, Helena
 Contributing: here
 Contact: luigi.talamo@uni-saarland.de
 ===============================================================================
 </pre>
+=======
+Contributors: Asadpour, Hiwa
+Contributing: here
+Contact: asadpourhiwa@gmail.com
+===============================================================================
+</pre>
+>>>>>>> 9e5f537cd4188bb04f0c2947eb040b7750e34be4
