@@ -1,0 +1,890 @@
+# text = Dā ew meseleyēkit bo bigēřimewe .
+# sent_id = Mukri__1
+1	Dā	Dā	INTJ	_	_	6	discourse	_	_
+2	ew	ewe	DET	_	Definite=Def|Number=Sing	3	det	_	_
+3-4	meseleyēkit	_	_	_	_	_	_	_	_
+3	meseleyēk	mesele	NOUN	_	Definite=Ind|Number=Sing	6	obj	_	_
+4	it	it	PRON	_	_	3	nmod	_	_
+5	bo	bo	ADP	_	ExtPos=ADP	6	iobj	_	_
+6	bigēřimewe	gēřanewe	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Dełēn melāyēk le dēyēkī köredēyekī .
+# sent_id = Mukri__2
+1	Dełēn	gutin	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	melāyēk	melā	NOUN	_	Definite=Ind|Person=3	1	nsubj	_	_
+3	le	le	ADP	_	ExtPos=ADP	4	case	_	_
+4	dēyēkī	dē	NOUN	_	Definite=Ind|Number=Sing	2	obl	_	_
+5	köredēyekī	köredē	NOUN	_	Definite=Ind|Number=Sing	2	obl	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Yānī eme dēy kēm pē dełēyn köredē .
+# sent_id = Mukri__3
+1	Yānī	Yānī	PART	_	_	6	discourse	_	_
+2	eme	eme	PRON	_	Number=Sing|Person=1	6	nsubj	_	_
+3	dēy	dē	NOUN	_	Definite=Spec|Number=Sing	6	obj	_	_
+4	kēm	kēm	NUM	_	_	3	nummod	_	_
+5	pē	pē	ADP	_	ExtPos=ADP	6	iobj	_	_
+6	dełēyn	gutin	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	köredē	köredē	NOUN	_	Definite=Spec|Number=Sing	6	obl	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Lew köredēyey herčend deykird .
+# sent_id = Mukri__4
+1-2	Lew	_	_	_	_	_	_	_	_
+1	L	Le	ADP	_	ExtPos=ADP	2	case	_	_
+2	ew	ewe	DET	_	Definite=Def|Number=Sing	3	det	_	_
+3	köredēyey	köredē	NOUN	_	Definite=Spec|Number=Sing	5	obl	_	_
+4	herčend	herčend	ADV	_	_	5	advmod	_	_
+5	deykird	kirdin	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Be berātekey xoy be ře nedečū .
+# sent_id = Mukri__5
+1	Be	Be	ADP	_	ExtPos=ADP	2	case	_	_
+2	berātekey	berāt	NOUN	_	Definite=Def|Number=Sing	7	obl	_	_
+3-4	xoy	_	_	_	_	_	_	_	_
+3	xo	xo	PART	_	Reflex=Yes	4	nmod	_	_
+4	y	y	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	_
+5	be	be	ADP	_	ExtPos=ADP	6	case	_	_
+6	ře	ře	NOUN	_	_	7	obl	_	_
+7	nedečū	čūn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = Yānī be huqūqekey xoy be ře nedečū .
+# sent_id = Mukri__6
+1	Yānī	Yānī	PART	_	_	8	discourse	_	_
+2	be	be	ADP	_	ExtPos=ADP	3	case	_	_
+3	huqūqekey	huqūq	NOUN	_	Definite=Def|Number=Sing	8	obl	_	_
+4-5	xoy	_	_	_	_	_	_	_	_
+4	xo	xo	PART	_	Reflex=Yes	5	nmod	_	_
+5	y	y	PRON	_	Number=Sing|Person=3	3	nmod:poss	_	_
+6	be	be	ADP	_	ExtPos=ADP	7	case	_	_
+7	ře	ře	NOUN	_	_	8	obl	_	_
+8	nedečū	čū	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = Herčend fikrī lē dekirdewe .
+# sent_id = Mukri__7
+1	Herčend	Herčend	ADV	_	_	5	advmod	_	_
+2-3	fikrī	_	_	_	_	_	_	_	_
+2	fikr	fikr	NOUN	_	_	5	compound:lvc	_	_
+3	ī	ī	PRON	_	Number=Sing|Person=3	5	iobj	_	_
+4	lē	lē	ADP	_	ExtPos=ADP	3	case	_	_
+5	dekirdewe	kirdin	VERB	_	Aspect=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Hīč fāydeyī nebū .
+# sent_id = Mukri__8
+1	Hīč	Hīč	ADV	_	_	4	advmod	_	_
+2-3	fāydeyī	_	_	_	_	_	_	_	_
+2	fāydey	fāydey	NOUN	_	_	4	obj	_	_
+3	ī	ī	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	nebū	būn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Nejāřēkīšī lē bū .
+# sent_id = Mukri__9
+1-2	Nejāřēkīšī	_	_	_	_	_	_	_	_
+1	Nejāřēkīš	Nejāřēkīš	NOUN	_	Definite=Ind|Number=Sing	4	obj	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	4	iobj	_	_
+3	lē	lē	ADP	_	ExtPos=ADP	2	case	_	_
+4	bū	būn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Nejāřekeš kutī .
+# sent_id = Mukri__10
+1	Nejāřekeš	Nejāř	NOUN	_	Definite=Def|Number=Sing	2	nsubj	_	_
+2-3	kutī	_	_	_	_	_	_	_	_
+2	kut	kut	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ī	ī	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Kuře jā ewe emin čāwim le kāk miħemedī bē .
+# sent_id = Mukri__11
+1	Kuře	Kuř	NOUN	_	Definite=Def|Number=Sing	10	vocative	_	_
+2	jā	jā	INTJ	_	_	10	discourse	_	_
+3	ewe	ewe	DET	_	Definite=Def|Number=Sing	10	det	_	_
+4	emin	emin	PRON	_	Number=Sing|Person=1	10	nsubj	_	_
+5-6	čāwim	_	_	_	_	_	_	_	_
+5	čāw	čāw	NOUN	_	Number=Sing	10	compound:lvc	_	_
+6	im	im	PRON	_	Number=Sing|Person=1	5	nmod	_	_
+7	le	le	ADP	_	ExtPos=ADP	9	case	_	_
+8	kāk	kāk	PART	_	_	9	nmod	_	_
+9	miħemedī	miħemed	PROPN	_	Number=Sing	10	iobj	_	_
+10	bē	būn	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# text = Āmūrekey biškē .
+# sent_id = Mukri__12
+1-2	Āmūrekey	_	_	_	_	_	_	_	_
+1	Āmūreke	Āmūreke	NOUN	_	Definite=Def|Number=Sing	3	obj	_	_
+2	y	y	PRON	_	Number=Sing|Person=3	1	nmod:poss	_	_
+3	biškē	šikandin	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Āmūr dezānī čīye ?
+# sent_id = Mukri__13
+1	Āmūr	Āmūr	NOUN	_	Number=Sing	2	obj	_	_
+2	dezānī	zānīn	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	čīye	bûn	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# text = Ewey gājūtī pē dekā .
+# sent_id = Mukri__14
+1	Ewey	Ewe	DET	_	Definite=Def|Number=Sing	5	nsubj	_	_
+2-3	gājūtī	_	_	_	_	_	_	_	_
+2	gājūt	gājūt	PROPN	_	Number=Sing	5	obj	_	_
+3	ī	ī	PRON	_	Number=Sing|Person=3	5	iobj	_	_
+4	pē	pē	ADP	_	ExtPos=ADP	3	case	_	_
+5	dekā	kirdin	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Dā xwā āyā de řožēdā emin āmūrēkī hełbestim .
+# sent_id = Mukri__15
+1	Dā	Dā	PART	_	_	2	discourse	_	_
+2	xwā	xwā	PROPN	_	Number=Sing	8	vocative	_	_
+3	āyā	āyā	ADV	_	_	8	advmod	_	_
+4	de	de	ADP	_	ExtPos=ADP	5	case	_	_
+5	řožēdā	řož	NOUN	_	Number=Sing	8	obl	_	_
+6	emin	emin	PRON	_	Number=Sing|Person=1	8	nsubj	_	_
+7	āmūrēkī	āmūr	NOUN	_	Definite=Ind|Number=Sing	8	obj	_	_
+8	hełbestim	bestin	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = Emin bewey be ře nāčim .
+# sent_id = Mukri__16
+1	Emin	Emin	PRON	_	Number=Sing|Person=1	6	nsubj	_	_
+2-3	bewey	_	_	_	_	_	_	_	_
+2	b	be	ADP	_	ExtPos=ADP	3	case	_	_
+3	ewey	ewey	DET	_	Definite=Def|Number=Sing	6	obl	_	_
+4	be	be	ADP	_	ExtPos=ADP	5	case	_	_
+5	ře	ře	NOUN	_	Number=Sing	6	compound:lvc	_	_
+6	nāčim	čun	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Xeyātēkīšī lē bū .
+# sent_id = Mukri__17
+1-2	Xeyātēkīšī	_	_	_	_	_	_	_	_
+1	Xeyātēkīš	Xeyāt	NOUN	_	Definite=Ind|Number=Sing	4	nsubj	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	4	iobj	_	_
+3	lē	lē	ADP	_	ExtPos=ADP	2	case	_	_
+4	bū	būn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Xeyāteke , hersēkyān kewtine kinēk , hersēkyān .
+# sent_id = Mukri__18
+1	Xeyāteke	Xeyāt	NOUN	_	Definite=Def|Number=Sing	5	discourse	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3-4	hersēkyān	_	_	_	_	_	_	_	_
+3	hersēk	hersē	NUM	_	Definite=Ind|Number=Sing	5	obj	_	_
+4	yān	yān	PRON	_	Number=Plur|Person=3	3	nmod	_	_
+5	kewtine	kewtin	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	kinēk	kin	ADV	_	Definite=Ind|Number=Sing	5	iobj	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
+8-9	hersēkyān	_	_	_	_	_	_	_	_
+8	hersēk	hersē	NUM	_	Definite=Ind|Number=Sing	5	discourse	_	_
+9	yān	yān	PRON	_	Number=Plur|Person=3	8	nmod	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Kutī .
+# sent_id = Mukri__19
+1-2	Kutī	_	_	_	_	_	_	_	_
+1	Kut	Kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Eme tedbīrēkī bo xomān bikeyn .
+# sent_id = Mukri__20
+1	Eme	Eme	PRON	_	Number=Sing|Person=1	6	nsubj	_	_
+2	tedbīrēkī	tedbīr	NOUN	_	Definite=Ind|Number=Sing	6	compound:lvc	_	_
+3	bo	bo	ADP	_	ExtPos=ADP	4	case	_	_
+4-5	xomān	_	_	_	_	_	_	_	_
+4	xo	xo	PART	_	Reflex=Yes	6	iobj	_	_
+5	mān	mān	PRON	_	Number=Plur|Person=1	4	nmod	_	_
+6	bikeyn	kirdin	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Xo eto ne bew berāte be ře dečī .
+# sent_id = Mukri__21
+1	Xo	Xo	PART	_	Reflex=Yes	9	discourse	_	_
+2	eto	eto	PRON	_	Number=Sing|Person=2	9	nsubj	_	_
+3	ne	ne	PART	_	_	6	nmod	_	_
+4-5	bew	_	_	_	_	_	_	_	_
+4	b	be	ADP	_	ExtPos=ADP	5	case	_	_
+5	ew	ewe	DET	_	Definite=Def|Number=Sing	6	det	_	_
+6	berāte	berāt	NOUN	_	Definite=Def|Number=Sing	9	obl	_	_
+7	be	be	ADP	_	ExtPos=ADP	8	case	_	_
+8	ře	ře	NOUN	_	Number=Sing	9	compound:lvc	_	_
+9	dečī	čun	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# text = Ne emin bew xeyātīye be ře dečim .
+# sent_id = Mukri__22
+1	Ne	Ne	PART	_	_	8	discourse	_	_
+2	emin	emin	PRON	_	Number=Sing|Person=1	8	nsubj	_	_
+3-4	bew	_	_	_	_	_	_	_	_
+3	b	be	ADP	_	ExtPos=ADP	4	case	_	_
+4	ew	ewe	DET	_	Definite=Def|Number=Sing	5	det	_	_
+5	xeyātīye	xeyātī	NOUN	_	Definite=Def|Number=Sing	8	obl	_	_
+6	be	be	ADP	_	ExtPos=ADP	7	case	_	_
+7	ře	ře	NOUN	_	Number=Sing	8	compound:lvc	_	_
+8	dečim	čun	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = Ne etož bew nejāřey be ře dečī .
+# sent_id = Mukri__23
+1	Ne	Ne	PART	_	_	8	discourse	_	_
+2	etož	eto	PRON	_	Number=Sing|Person=2	8	nsubj	_	_
+3-4	bew	_	_	_	_	_	_	_	_
+3	b	be	ADP	_	ExtPos=ADP	4	case	_	_
+4	ew	ewe	DET	_	Definite=Def|Number=Sing	5	det	_	_
+5	nejāřey	nejāř	NOUN	_	Definite=Def|Number=Sing	8	obl	_	_
+6	be	be	ADP	_	ExtPos=ADP	7	case	_	_
+7	ře	ře	NOUN	_	Number=Sing	8	compound:lvc	_	_
+8	dečī	čun	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = Kutī .
+# sent_id = Mukri__24
+1-2	Kutī	_	_	_	_	_	_	_	_
+1	Kut	Kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Či bikeyn čākā .
+# sent_id = Mukri__25
+1	Či	Či	ADV	_	_	2	nsubj	_	_
+2	bikeyn	kirdin	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	čākā	čākā	ADJ	_	_	2	obl	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Kutī .
+# sent_id = Mukri__26
+1-2	Kutī	_	_	_	_	_	_	_	_
+1	Kut	Kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Wiłłāhī mil denēyn le qāčāxčīyātīye .
+# sent_id = Mukri__27
+1	Wiłłāhī	Wiłłāhī	PART	_	_	3	discourse	_	_
+2	mil	mil	NOUN	_	Number=Sing	3	compound:lvc	_	_
+3	denēyn	tēnan	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	le	le	ADP	_	ExtPos=ADP	5	case	_	_
+5	qāčāxčīyātīye	qāčāxčīyātī	ADV	_	Number=Sing	3	iobj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Yēk dełē qāčāxčī .
+# sent_id = Mukri__28
+1	Yēk	Yēk	NUM	_	Definite=Ind|Number=Sing	2	nsubj	_	_
+2	dełē	kutin	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	qāčāxčī	qāčāxčī	NOUN	_	Number=Sing	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Yēk dełē tujāřet .
+# sent_id = Mukri__29
+1	Yēk	Yēk	NUM	_	Definite=Ind|Number=Sing	2	nsubj	_	_
+2	dełē	kutin	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	tujāřet	tujāřet	NOUN	_	Number=Sing	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Tujāřetē , bā bičīn tujāřetīyēkē bikeyn .
+# sent_id = Mukri__30
+1	Tujāřetē	Tujāřet	NOUN	_	Number=Sing	6	discourse	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	bā	bā	PART	_	_	4	discourse	_	_
+4	bičīn	čun	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+5	tujāřetīyēkē	tujāřet	NOUN	_	Definite=Ind|Number=Sing	6	obj	_	_
+6	bikeyn	kirdin	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Kutī .
+# sent_id = Mukri__31
+1-2	Kutī	_	_	_	_	_	_	_	_
+1	Kut	Kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Hestān řoīštin .
+# sent_id = Mukri__32
+1	Hestān	Hestān	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+2	řoīštin	řoyštin	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Wānēkēkyān kird .
+# sent_id = Mukri__33
+1-2	Wānēkēkyān	_	_	_	_	_	_	_	_
+1	Wānēkēk	Wānēk	PART	_	Definite=Ind|Number=Sing	3	nsubj	_	_
+2	yān	yān	PRON	_	Number=Plur|Person=3	1	nmod	_	_
+3	kird	kirdin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Āyā her šitēkī we gīrīān kewit .
+# sent_id = Mukri__34
+1	Āyā	Āyā	PART	_	_	7	discourse	_	_
+2	her	her	ADV	_	_	3	advmod	_	_
+3	šitēkī	šitēk	NOUN	_	Definite=Ind|Number=Sing	7	obj	_	_
+4	we	we	ADP	_	ExtPos=ADP	5	case	_	_
+5-6	gīrīān	_	_	_	_	_	_	_	_
+5	gīrī	gīr	NOUN	_	Number=Sing	7	compound:lvc	_	_
+6	yān	yān	PRON	_	Number=Plur|Person=3	5	nmod	_	_
+7	kewit	kewtin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = Yān we gīrīān nekewit .
+# sent_id = Mukri__35
+1	Yān	Yān	PART	_	_	5	discourse	_	_
+2	we	we	ADP	_	ExtPos=ADP	3	case	_	_
+3-4	gīrīān	_	_	_	_	_	_	_	_
+3	gīrī	gīr	NOUN	_	Number=Sing	5	compound:lvc	_	_
+4	yān	yān	PRON	_	Number=Plur|Person=3	3	nmod	_	_
+5	nekewit	kewtin	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Hātin le čolēkī mānewe čol .
+# sent_id = Mukri__36
+1	Hātin	Hātin	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+2	le	le	ADP	_	ExtPos=ADP	3	case	_	_
+3	čolēkī	čol	NOUN	_	Definite=Ind|Number=Sing	4	iobj	_	_
+4	mānewe	mānān	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	čol	čol	NOUN	_	Number=Sing	4	discourse	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Čol dezānī čīye ?
+# sent_id = Mukri__37
+1	Čol	Čol	NOUN	_	Number=Sing	2	discourse	_	_
+2	dezānī	zānīn	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+3-4	čīye	_	_	_	_	_	_	_	_
+3	čī	čī	ADV	_	_	4	nsubj	_	_
+4	ye	ye	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# text = Čolge , yānī hīč kesī lē nebū .
+# sent_id = Mukri__38
+1	Čolge	Čolge	NOUN	_	Number=Sing	7	dislocated	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	yānī	yānī	PART	_	_	7	discourse	_	_
+4	hīč	hīč	ADV	_	_	5	advmod	_	_
+5	kesī	kes	NOUN	_	Definite=Spec|Number=Sing	7	obj	_	_
+6	lē	lē	ADP	_	ExtPos=ADP	7	compound:lvc	_	_
+7	nebū	būn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = De xeter dāyā .
+# sent_id = Mukri__39
+1	De	De	ADP	_	ExtPos=ADP	2	case	_	_
+2	xeter	xeter	NOUN	_	Number=Sing	3	compound:lvc	_	_
+3	dāyā	būn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Yānī ewe heger dizēk četeyēk dizēk bē .
+# sent_id = Mukri__40
+1	Yānī	Yānī	PART	_	_	7	discourse	_	_
+2	ewe	ewe	DET	_	Definite=Def|Number=Sing	4	det	_	_
+3	heger	heger	ADV	_	_	4	advmod	_	_
+4	dizēk	diz	NOUN	_	Definite=Ind|Number=Sing	7	nsubj	_	_
+5	četeyēk	čete	NOUN	_	Definite=Ind|Number=Sing	4	discourse	_	_
+6	dizēk	diz	NOUN	_	Definite=Ind|Number=Sing	4	discourse	_	_
+7	bē	būn	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = Ewāne jānyān de xeter dāyā .
+# sent_id = Mukri__41
+1	Ewāne	Ewāne	PRON	_	Number=Plur|Person=3	6	nsubj	_	_
+2-3	jānyān	_	_	_	_	_	_	_	_
+2	jān	jān	NOUN	_	_	6	obj	_	_
+3	yān	yān	PRON	_	_	2	nmod:poss	_	_
+4	de	de	ADP	_	ExtPos=ADP	5	case	_	_
+5	xeter	xeter	NOUN	_	Number=Sing	6	compound:lvc	_	_
+6	dāyā	būn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Herj māłēkī pēyān bē .
+# sent_id = Mukri__42
+1	Herj	Herj	ADV	_	_	2	advmod	_	_
+2	māłēkī	māł	NOUN	_	Definite=Ind|Number=Sing	5	obj	_	_
+3-4	pēyān	_	_	_	_	_	_	_	_
+3	pē	pē	ADP	_	_	5	compound:lvc	_	_
+4	yān	yān	PRON	_	Number=Plur|Person=3	3	nmod	_	_
+5	bē	būn	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Lēyān destēnin .
+# sent_id = Mukri__43
+1-2	Lēyān	_	_	_	_	_	_	_	_
+1	Lē	Lē	ADP	_	ExtPos=ADP	2	case	_	_
+2	yān	yān	PRON	_	Number=Plur|Person=3	3	obl	_	_
+3	destēnin	stāndin	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Kutī .
+# sent_id = Mukri__44
+1-2	Kutī	_	_	_	_	_	_	_	_
+1	Kut	Kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Wā čāke { # yēkmān } dūmān binūīn .
+# sent_id = Mukri__45
+1	Wā	Wā	ADV	_	_	3	advmod	_	_
+2-3	čāke	_	_	_	_	_	_	_	_
+2	čāk	čāk	ADJ	_	_	3	nsubj	_	_
+3	e	e	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+4	{	{	PUNCT	_	_	6	punct	_	_
+5	#	#	PUNCT	_	_	6	punct	_	_
+6-7	yēkmān	_	_	_	_	_	_	_	_
+6	yēk	yēk	NUM	_	Definite=Ind|Number=Sing	11	discourse	_	_
+7	mān	mān	PRON	_	Number=Plur|Person=1	6	nmod:poss	_	_
+8	}	}	PUNCT	_	_	6	punct	_	_
+9-10	dūmān	_	_	_	_	_	_	_	_
+9	dū	dū	NUM	_	_	11	nsubj	_	_
+10	mān	mān	PRON	_	_	9	nmod:poss	_	_
+11	binūīn	nūstin	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# text = Yēkmān nīgābānīē bikēšīn .
+# sent_id = Mukri__46
+1-2	Yēkmān	_	_	_	_	_	_	_	_
+1	Yēk	Yēk	NUM	_	Definite=Ind|Number=Sing	4	nsubj	_	_
+2	mān	mān	PRON	_	Number=Plur|Person=1	1	nmod:poss	_	_
+3	nīgābānīē	nīgābānī	ADV	_	_	4	compound:lvc	_	_
+4	bikēšīn	kēšān	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Eme čwār neferīn lēre dā .
+# sent_id = Mukri__47
+1	Eme	Eme	PRON	_	Number=Plur|Person=1	4	nsubj	_	_
+2	čwār	čwār	NUM	_	Number=Sing	3	nummod	_	_
+3-4	neferīn	_	_	_	_	_	_	_	_
+3	nefer	nefer	NOUN	_	Number=Sing	4	compound:lvc	_	_
+4	īn	būn	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	lēre	lēre	ADV	_	_	4	obl	_	_
+6	dā	dā	ADP	_	ExtPos=ADP	5	case	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Welī ewān sē nefer būn .
+# sent_id = Mukri__48
+1	Welī	Welī	ADV	_	_	5	advmod	_	_
+2	ewān	ewān	PRON	_	Number=Plur|Person=3	5	nsubj	_	_
+3	sē	sē	NUM	_	_	4	nummod	_	_
+4	nefer	nefer	NOUN	_	Number=Sing	5	compound:lvc	_	_
+5	būn	būn	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Yēkyān kutī .
+# sent_id = Mukri__49
+1-2	Yēkyān	_	_	_	_	_	_	_	_
+1	Yēk	Yēk	NUM	_	Definite=Ind|Number=Sing	3	nsubj	_	_
+2	yān	yān	PRON	_	Number=Plur|Person=3	1	nmod	_	_
+3-4	kutī	_	_	_	_	_	_	_	_
+3	kut	kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ī	ī	PRON	_	Number=Sing|Person=3	3	nmod	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Emin dū sāʕetān nīgābānī dekēšim .
+# sent_id = Mukri__50
+1	Emin	Emin	PRON	_	Number=Sing|Person=1	5	nsubj	_	_
+2	dū	dū	NUM	_	_	3	nummod	_	_
+3	sāʕetān	sāʕet	NOUN	_	Number=Plur	5	obj	_	_
+4	nīgābānī	nīgābānī	ADV	_	_	5	compound:lvc	_	_
+5	dekēšim	kēšān	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Engo binūn .
+# sent_id = Mukri__51
+1	Engo	Engo	PRON	_	Number=Plur|Person=2	2	nsubj	_	_
+2	binūn	nūstin	VERB	_	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ewī dīkeyān kutī .
+# sent_id = Mukri__52
+1	Ewī	Ewe	DET	_	Definite=Def|Number=Sing	2	det	_	_
+2-3	dīkeyān	_	_	_	_	_	_	_	_
+2	dīke	dīke	ADV	_	_	4	nsubj	_	_
+3	yān	yān	PRON	_	Number=Plur|Person=3	2	nmod:poss	_	_
+4-5	kutī	_	_	_	_	_	_	_	_
+4	kut	kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ī	ī	PRON	_	_	4	nmod	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Dūwāyā emin hestēne .
+# sent_id = Mukri__53
+1	Dūwāyā	Dūwāyā	ADV	_	_	3	advmod	_	_
+2	emin	emin	PRON	_	Number=Sing|Person=1	3	nsubj	_	_
+3	hestēne	hestāndin	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Ewī dīkeš kutī .
+# sent_id = Mukri__54
+1	Ewī	Ewe	DET	_	Definite=Def|Number=Sing	2	det	_	_
+2	dīkeš	dīke	ADV	_	_	3	nsubj	_	_
+3-4	kutī	_	_	_	_	_	_	_	_
+3	kut	kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ī	ī	PRON	_	Number=Sing|Person=3	3	nmod	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Dūwāyā emin hestēne .
+# sent_id = Mukri__55
+1	Dūwāyā	Dūwāyā	ADV	_	_	3	advmod	_	_
+2	emin	emin	PRON	_	Number=Sing|Person=1	3	nsubj	_	_
+3	hestēne	hestāndin	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Būne sē pās .
+# sent_id = Mukri__56
+1-2	Būne	_	_	_	_	_	_	_	_
+1	Būn	Būn	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	e	e	ADP	_	ExtPos=ADP	4	case	_	_
+3	sē	sē	NUM	_	_	4	nummod	_	_
+4	pās	pās	NOUN	_	_	1	iobj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Ħerzit bikem .
+# sent_id = Mukri__57
+1-2	Ħerzit	_	_	_	_	_	_	_	_
+1	Ħerz	Ħerz	NOUN	_	_	3	compound:lvc	_	_
+2	it	it	PRON	_	Number=Sing|Person=2	1	iobj	_	_
+3	bikem	kirdin	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Nejāř norey hāt .
+# sent_id = Mukri__58
+1	Nejāř	Nejāř	NOUN	_	Number=Sing	2	nmod:poss	_	_
+2-3	norey	_	_	_	_	_	_	_	_
+2	nore	nore	NOUN	_	_	4	nsubj	_	_
+3	y	y	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	hāt	hātin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Nejāř norey hāt .
+# sent_id = Mukri__59
+1	Nejāř	Nejāř	NOUN	_	Number=Sing	2	nmod:poss	_	_
+2-3	norey	_	_	_	_	_	_	_	_
+2	nore	nore	NOUN	_	_	4	nsubj	_	_
+3	y	y	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	hāt	hātin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Kuře kutī .
+# sent_id = Mukri__60
+1	Kuře	Kuř	NOUN	_	Definite=Def|Number=Sing	2	nsubj	_	_
+2-3	kutī	_	_	_	_	_	_	_	_
+2	kut	kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ī	ī	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Emin ege āwā dānīšim .
+# sent_id = Mukri__61
+1	Emin	Emin	PRON	_	Number=Sing|Person=1	4	nsubj	_	_
+2	ege	ege	ADV	_	_	3	discourse	_	_
+3	āwā	āwā	ADV	_	_	4	advmod	_	_
+4	dānīšim	dānīštin	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Xewim dē .
+# sent_id = Mukri__62
+1-2	Xewim	_	_	_	_	_	_	_	_
+1	Xew	Xew	NOUN	_	Number=Sing	3	compound:lvc	_	_
+2	im	im	PRON	_	Number=Sing|Person=1	1	nmod	_	_
+3	dē	hātin	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Hēnāy .
+# sent_id = Mukri__63
+1-2	Hēnāy	_	_	_	_	_	_	_	_
+1	Hēnā	Hēnān	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	y	y	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Yēk kolkedārēkī peydā kird .
+# sent_id = Mukri__64
+1	Yēk	Yēk	NUM	_	Definite=Ind|Number=Sing	2	nummod	_	_
+2-3	kolkedārēkī	_	_	_	_	_	_	_	_
+2	kolkedārēk	kolkedār	NOUN	_	Definite=Ind|Number=Sing	5	obj	_	_
+3	ī	ī	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	peydā	peydā	ADV	_	_	5	compound:lvc	_	_
+5	kird	kirdin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Lew dārey yēk ʕīnsānī durust kird , ʕīnsān .
+# sent_id = Mukri__65
+1-2	Lew	_	_	_	_	_	_	_	_
+1	L	Le	ADP	_	ExtPos=ADP	2	case	_	_
+2	ew	ewe	DET	_	Definite=Def|Number=Sing	3	det	_	_
+3	dārey	dār	NOUN	_	Definite=Spec|Number=Sing	8	obl	_	_
+4	yēk	yēk	NUM	_	Definite=Ind|Number=Sing	5	nummod	_	_
+5-6	ʕīnsānī	_	_	_	_	_	_	_	_
+5	ʕīnsān	ʕīnsān	NOUN	_	Number=Sing	8	obj	_	_
+6	ī	ī	PRON	_	Number=Sing|Person=3	5	nmod	_	_
+7	durust	durust	ADV	_	_	8	compound:lvc	_	_
+8	kird	kirdin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ʕīnsān	ʕīnsān	NOUN	_	Number=Sing	8	dislocated	_	_
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = Ege ʕīnsānekey durust kird .
+# sent_id = Mukri__66
+1	Ege	Ege	ADV	_	_	2	advmod	_	_
+2-3	ʕīnsānekey	_	_	_	_	_	_	_	_
+2	ʕīnsāneke	ʕīnsān	NOUN	_	Definite=Def|Number=Sing	5	obj	_	_
+3	y	y	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	durust	durust	ADV	_	_	5	compound:lvc	_	_
+5	kird	kirdin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Wextī tewāw bū .
+# sent_id = Mukri__67
+1-2	Wextī	_	_	_	_	_	_	_	_
+1	Wext	Wext	NOUN	_	Number=Sing	4	obj	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod:poss	_	_
+3	tewāw	tewāw	ADV	_	_	4	compound:lvc	_	_
+4	bū	būn	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Yānī wextī nīgābānīyekey tewāw bū .
+# sent_id = Mukri__68
+1	Yānī	Yānī	PART	_	_	6	discourse	_	_
+2	wextī	wext	NOUN	_	Number=Sing	6	obj	_	_
+3-4	nīgābānīyekey	_	_	_	_	_	_	_	_
+3	nīgābānīyeke	nīgābānī	NOUN	_	_	2	nmod:poss	_	_
+4	y	y	PRON	_	Number=Sing|Person=3	3	nmod:poss	_	_
+5	tewāw	tewāw	ADV	_	_	6	compound:lvc	_	_
+6	bū	būn	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Ege wextī nīgābānīyekey tewāw bū .
+# sent_id = Mukri__69
+1	Ege	Ege	ADV	_	_	6	advmod	_	_
+2	wextī	wext	NOUN	_	Number=Sing	6	obj	_	_
+3-4	nīgābānīyekey	_	_	_	_	_	_	_	_
+3	nīgābānīyeke	nīgābānī	NOUN	_	_	2	nmod:poss	_	_
+4	y	y	PRON	_	_	3	nmod:poss	_	_
+5	tewāw	tewāw	ADV	_	_	6	compound:lvc	_	_
+6	bū	būn	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Süleymān heste .
+# sent_id = Mukri__70
+1	Süleymān	Süleymān	PROPN	_	Number=Sing	2	nsubj	_	_
+2	heste	hestān	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Nore te .
+# sent_id = Mukri__71
+1	Nore	Nore	NOUN	_	Number=Sing	3	compound:lvc	_	_
+2-3	te	_	_	_	_	_	_	_	_
+2	t	t	PRON	_	Number=Sing|Person=2	1	nmod	_	_
+3	e	e	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Süleymān ege hestā .
+# sent_id = Mukri__72
+1	Süleymān	Süleymān	PROPN	_	Number=Sing	3	nsubj	_	_
+2	ege	ege	ADV	_	_	3	advmod	_	_
+3	hestā	hestān	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Xeyāt bū .
+# sent_id = Mukri__73
+1	Xeyāt	Xeyāt	PROPN	_	Number=Sing	2	nsubj	_	_
+2	bū	būn	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Bełē biřēkī hetā dim ū čāwī hestiřīyewe .
+# sent_id = Mukri__74
+1	Bełē	Bełē	PART	_	_	9	discourse	_	_
+2-3	biřēkī	_	_	_	_	_	_	_	_
+2	biřēk	biřēk	ADV	_	_	9	advmod	_	_
+3	ī	ī	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	hetā	hetā	ADV	_	_	2	advmod	_	_
+5	dim	dim	NOUN	_	_	9	obj	_	_
+6	ū	ū	PART	_	_	7	cc	_	_
+7-8	čāwī	_	_	_	_	_	_	_	_
+7	čāw	čāw	NOUN	_	Number=Sing	5	conj	_	_
+8	ī	ī	PRON	_	Number=Sing|Person=3	7	nmod:poss	_	_
+9	hestiřīyewe	hestiřanewe	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# text = Xewī lē řewī w .
+# sent_id = Mukri__75
+1-2	Xewī	_	_	_	_	_	_	_	_
+1	Xew	Xew	NOUN	_	Number=Sing	4	nsubj	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	3	iobj	_	_
+3	lē	lē	ADP	_	ExtPos=ADP	4	compound:lvc	_	_
+4	řewī	řewīn	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	w	w	PART	_	_	4	cc	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Biřēkī dim ū čāw šūt .
+# sent_id = Mukri__76
+1-2	Biřēkī	_	_	_	_	_	_	_	_
+1	Biřēk	Biřēk	ADV	_	_	6	advmod	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	dim	dim	NOUN	_	Number=Sing	6	obj	_	_
+4	ū	ū	PART	_	_	5	cc	_	_
+5	čāw	čāw	NOUN	_	Number=Sing	3	conj	_	_
+6	šūt	šūtin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Ege temāšāy kird .
+# sent_id = Mukri__77
+1	Ege	Ege	ADV	_	_	4	advmod	_	_
+2-3	temāšāy	_	_	_	_	_	_	_	_
+2	temāšā	temāšā	NOUN	_	Number=Sing	4	compound:lvc	_	_
+3	y	y	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	kird	kirdin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Spīyāyēk ho lewendey dīyāre .
+# sent_id = Mukri__78
+1	Spīyāyēk	Spīyāyī	NOUN	_	Definite=Ind|Number=Sing	5	nsubj	_	_
+2	ho	ho	DET	_	_	3	det	_	_
+3	lewendey	lewende	ADV	_	_	5	obl	_	_
+4-5	dīyāre	_	_	_	_	_	_	_	_
+4	dīyār	dīyār	ADJ	_	_	5	compound:lvc	_	_
+5	e	e	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Ey kuře kutī .
+# sent_id = Mukri__79
+1	Ey	Ey	INTJ	_	_	3	discourse	_	_
+2	kuře	kuř	NOUN	_	Definite=Def|Number=Sing	3	nsubj	_	_
+3-4	kutī	_	_	_	_	_	_	_	_
+3	kut	kut	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ī	ī	PRON	_	Number=Sing|Person=3	3	nmod	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Ew spīyāe debēt či bē .
+# sent_id = Mukri__80
+1	Ew	Ewe	DET	_	Definite=Def|Number=Sing	2	det	_	_
+2	spīyāe	spīyāye	ADJ	_	Definite=Def	3	obj	_	_
+3	debēt	būn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+4	či	či	ADV	_	_	5	nsubj	_	_
+5	bē	būn	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Ege lē y čo pēšē .
+# sent_id = Mukri__81
+1	Ege	Ege	ADV	_	_	4	discourse	_	_
+2	lē	lē	ADP	_	ExtPos=ADP	3	case	_	_
+3	y	y	PRON	_	Number=Sing|Person=3	4	iobj	_	_
+4	čo	čun	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	pēšē	pēš	ADV	_	Definite=Spec	4	compound:lvc	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Temāšāy kird .
+# sent_id = Mukri__82
+1-2	Temāšāy	_	_	_	_	_	_	_	_
+1	Temāšā	Temāšā	NOUN	_	_	3	compound:lvc	_	_
+2	y	y	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	kird	kirdin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Ewe kolkedārēke .
+# sent_id = Mukri__83
+1	Ewe	Ewe	DET	_	Definite=Def|Number=Sing	2	det	_	_
+2-3	kolkedārēke	_	_	_	_	_	_	_	_
+2	kolkedārēk	kolkedār	NOUN	_	Definite=Ind|Number=Sing	3	nsubj	_	_
+3	e	e	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Nejāř durustī kirdūwe .
+# sent_id = Mukri__84
+1	Nejāř	Nejāř	NOUN	_	Number=Sing	4	nsubj	_	_
+2-3	durustī	_	_	_	_	_	_	_	_
+2	durust	durust	ADV	_	_	4	compound:lvc	_	_
+3	ī	ī	PRON	_	Number=Sing|Person=3	2	nmod	_	_
+4	kirdūwe	kirdin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Kutī .
+# sent_id = Mukri__85
+1-2	Kutī	_	_	_	_	_	_	_	_
+1	Kut	Kut	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Ne nejāř ewey boyā durus kirdūwe .
+# sent_id = Mukri__86
+1	Ne	Ne	PART	_	_	7	discourse	_	_
+2	nejāř	nejāř	NOUN	_	Number=Sing	7	nsubj	_	_
+3-4	ewey	_	_	_	_	_	_	_	_
+3	ewe	ewe	DET	_	Definite=Def|Number=Sing	7	obj	_	_
+4	y	y	PRON	_	Number=Sing|Person=3	3	nmod	_	_
+5	boyā	boyā	ADV	_	_	7	advmod	_	_
+6	durus	durust	NOUN	_	_	7	compound:lvc	_	_
+7	kirdūwe	kirdin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = { # eger } eger xewī lē nekewē .
+# sent_id = Mukri__87
+1	{	{	PUNCT	_	_	3	punct	_	_
+2	#	#	PUNCT	_	_	3	punct	_	_
+3	eger	eger	ADV	_	_	9	discourse	_	_
+4	}	}	PUNCT	_	_	3	punct	_	_
+5	eger	eger	ADV	_	_	9	discourse	_	_
+6-7	xewī	_	_	_	_	_	_	_	_
+6	xew	xew	NOUN	_	Number=Sing	9	compound:lvc	_	_
+7	ī	ī	PRON	_	Number=Sing|Person=3	9	iobj	_	_
+8	lē	lē	ADP	_	ExtPos=ADP	7	case	_	_
+9	nekewē	kwetin	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# text = Xew be ser īdā neyē .
+# sent_id = Mukri__88
+1	Xew	Xew	NOUN	_	Number=Sing	5	compound:lvc	_	_
+2	be	be	ADP	_	ExtPos=ADP	3	case	_	_
+3	ser	ser	ADV	_	_	4	advmod	_	_
+4	īdā	ī	PRON	_	Number=Sing|Person=3	5	iobj	_	_
+5	neyē	hātin	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Eminīš dēnim lew bergāney lew pārčāney hemāne .
+# sent_id = Mukri__89
+1	Eminīš	Emin	PRON	_	Number=Sing|Person=1	2	nsubj	_	_
+2	dēnim	hēnan	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3-4	lew	_	_	_	_	_	_	_	_
+3	l	le	ADP	_	ExtPos=ADP	4	case	_	_
+4	ew	ewe	DET	_	Definite=Def|Number=Sing	5	det	_	_
+5	bergāney	berg	NOUN	_	Definite=Spec|Number=Plur	2	obl	_	_
+6-7	lew	_	_	_	_	_	_	_	_
+6	l	le	ADP	_	ExtPos=ADP	7	case	_	_
+7	ew	ewe	DET	_	Definite=Def|Number=Sing	8	det	_	_
+8	pārčāney	pārče	NOUN	_	Definite=Spec|Number=Sing	2	obl	_	_
+9-10	hemāne	_	_	_	_	_	_	_	_
+9	hemān	hemān	ADV	_	_	10	compound:lvc	_	_
+10	e	e	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Lew pārčāne yek bergī bo durus dekem .
+# sent_id = Mukri__90
+1-2	Lew	_	_	_	_	_	_	_	_
+1	l	le	ADP	_	ExtPos=ADP	2	case	_	_
+2	ew	ewe	DET	_	Definite=Def|Number=Sing	3	det	_	_
+3	pārčāne	pārče	NOUN	_	Number=Plur|Person=3	9	obl	_	_
+4	yek	yek	NUM	_	Definite=Ind|Number=Sing	5	nummod	_	_
+5-6	bergī	_	_	_	_	_	_	_	_
+5	berg	berg	NOUN	_	Number=Sing	9	obj	_	_
+6	ī	ī	PRON	_	Number=Sing|Person=3	9	iobj	_	_
+7	bo	bo	ADP	_	ExtPos=ADP	6	case	_	_
+8	durus	durust	NOUN	_	Number=Sing	9	compound:lvc	_	_
+9	dekem	kirdin	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# text = Wek ħīsānekī bā lewē řāwestē .
+# sent_id = Mukri__91
+1	Wek	Wek	ADV	_	_	2	advmod	_	_
+2	ħīsānekī	ħīsān	NOUN	_	Definite=Ind|Number=Sing	5	nsubj	_	_
+3	bā	bā	ADV	_	_	4	discourse	_	_
+4	lewē	lewē	ADV	_	_	5	iobj	_	_
+5	řāwestē	řāwestān	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Kutī .
+# sent_id = Mukri__92
+1-2	Kutī	_	_	_	_	_	_	_	_
+1	Kut	Kutin	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ī	ī	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
