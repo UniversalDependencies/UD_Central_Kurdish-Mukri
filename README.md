@@ -58,8 +58,8 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-<<<<<<< HEAD
 Contributors: Asadpour, Hiwa; Talamo, Luigi Vaz, Helena; Verkerk, Annemarie
+Contributing: here
 Contact: asadpourhiwa@gmail.com
 ===============================================================================
 </pre>
