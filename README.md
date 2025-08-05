@@ -14,7 +14,7 @@ A typical entry looks like this:
 # Acknowledgments
 
 - **Lead Maintainer**: Hiwa Asadpour — overall coordination, main annotation, and releases
-- **Contributors**: 
+- **Contributors**: Luigi Talamo; Annemarie Verkerk
 - **Email**: [asadpourhiwa@gmail.com]
 - **License**: [CC-BY 4.0]
 
@@ -41,6 +41,8 @@ If you use this dataset, please cite the work as:
 
 * 2021	Asadpour, Hiwa. Cross-Dialect Diversity in Mukri Kurdish I: Phonological and Phonetic variation at Linguistic Geography, Cambridge University Press.
 
+* 2016 Öpengin, Ergin. The Mukri Variety of Central Kurdish: Grammar, Texts, and Lexicon. Beiträge zur Iranistik 40. Wiesbaden: Reichert
+
 # Changelog
 
 * 2025-11-15 v2.17
@@ -58,7 +60,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Asadpour, Hiwa; Talamo, Luigi Vaz, Helena; Verkerk, Annemarie
+Contributors: Asadpour, Hiwa; Talamo, Luigi; Verkerk, Annemarie
 Contributing: here
 Contact: asadpourhiwa@gmail.com
 ===============================================================================
