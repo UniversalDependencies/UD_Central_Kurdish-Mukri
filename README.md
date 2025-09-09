@@ -54,6 +54,7 @@ If you use this dataset, please cite the work as:
 Data available since: UD v2.17
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
