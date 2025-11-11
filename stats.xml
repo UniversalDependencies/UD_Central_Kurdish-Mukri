@@ -5,18 +5,74 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></total>
+    <total><sentences>138</sentences><tokens>660</tokens><words>765</words><fused>105</fused></total>
+    <train><sentences>92</sentences><tokens>464</tokens><words>539</words><fused>75</fused></train>
+    <dev><sentences>23</sentences><tokens>88</tokens><words>104</words><fused>16</fused></dev>
+    <test><sentences>23</sentences><tokens>108</tokens><words>122</words><fused>14</fused></test>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
-  <fusions unique="0" /><!--  -->
+  <lemmas unique="210" /><!-- ., ī, ewe, būn, kirdin, be, kutin, y, yān, le, e, emin, bûn, ege, hātin -->
+  <forms unique="279" /><!-- ., ī, kut, y, be, ew, yān, e, bū, kird, ege, emin, lē, le, yēk -->
+  <fusions unique="63" /><!-- kutī, lew, bew, norey, temāšāy, Kēy, biřēkī, cake, dīyāre, gīrīān, hersēkyān, kīhāyān, nīgābānīyekey, te, wextī -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="0">
+  <tags unique="13">
+    <tag name="ADJ">7</tag><!-- Bēřuħ, cak, dīyār, spīyāye, čāk, čākā, řešāyī -->
+    <tag name="ADP">60</tag><!-- be, le, lē, we, bo, de, pē, d, dā, e -->
+    <tag name="ADV">70</tag><!-- ege, ber, durust, eger, tewāw, biřēk, herčend, či, Dūwāyā, dīke -->
+    <tag name="AUX">7</tag><!-- bûn -->
+    <tag name="DET">28</tag><!-- ewe, ew, ewey, ho, Āwā -->
+    <tag name="INTJ">6</tag><!-- jā, Bełē, Dā, Ey, Ne -->
+    <tag name="NOUN">127</tag><!-- nejāř, ře, nore, wext, xew, xeyāt, berg, kolkedār, kuř, köredē -->
+    <tag name="NUM">17</tag><!-- yēk, dū, hersē, sē, kēm, yek, čwār -->
+    <tag name="PART">30</tag><!-- yānī, ne, xo, ū, w, Bełē, Dā, Wiłłāhī, Wānēk, Yān -->
+    <tag name="PRON">112</tag><!-- ī, y, yān, emin, eto, mān, Ew, eme, Kē, im -->
+    <tag name="PROPN">12</tag><!-- xudā, Süleymān, Xeyāt, gājūt, miħemed, qurʕān, xwā -->
+    <tag name="PUNCT">149</tag><!-- ., ?, ,, #, {, }, _ -->
+    <tag name="VERB">140</tag><!-- būn, kirdin, kutin, e, hātin, čun, dan, hestān, kewtin, kut -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="0">
+  <feats unique="18">
+    <feat name="Aspect" value="Imp" upos="VERB">1</feat><!-- dekirdewe -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN">42</feat><!-- ew, ewe, kuře, Ewī, ewey, Nejāřekeš, Xeyāteke, berāte, berātekey, huqūqekey -->
+    <feat name="Definite" value="Ind" upos="ADV,NOUN,NUM,PART">32</feat><!-- yēk, dizēk, hersēk, kolkedārēk, Nejāřēkīš, Spīyāyēk, Wānēkēk, Xeyātēkīš, dēyēkī, kinēk -->
+    <feat name="Definite" value="Spec" upos="ADV,DET,NOUN,PROPN">17</feat><!-- xudāy, bergey, bergāney, dārey, dēy, eweydā, kesī, köredē, köredēyey, melāyī -->
+    <feat name="ExtPos" value="ADP" upos="ADP">59</feat><!-- be, lē, le, l, we, b, bo, de, pē, d -->
+    <feat name="Mood" value="Imp" upos="VERB">2</feat><!-- heste -->
+    <feat name="Mood" value="Ind" upos="VERB">38</feat><!-- Deydey, bū, dekem, dezānī, dečī, dełē, dāyā, nebū, nedečū, Dełēn -->
+    <feat name="Mood" value="Sub" upos="VERB">17</feat><!-- bē, bikeyn, bigēřimewe, bikem, bikā, bikēšīn, binūn, binūīn, bičīn, biškē -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON,VERB">42</feat><!-- yān, mān, bikeyn, būn, Dełēn, Eme, Engo, Ewāne, Hestān, Hātin -->
+    <feat name="Number" value="Sing" upos="ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">369</feat><!-- ī, kut, y, ew, e, bū, kird, emin, yēk, ewe -->
+    <feat name="Person" value="1" upos="PRON,VERB">43</feat><!-- emin, mān, bikeyn, eme, Eminīš, dekem, im, bigēřimewe, bikem, bikēšīn -->
+    <feat name="Person" value="2" upos="PRON,VERB">29</feat><!-- Deydey, eto, dezānī, dečī, heste, t, y, Engo, binūn, bī -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PRON,VERB">180</feat><!-- ī, kut, y, e, yān, bū, kird, bē, Ewīš, hāt -->
+    <feat name="Reflex" value="Yes" upos="PART">4</feat><!-- xo -->
+    <feat name="Tense" value="Past" upos="VERB">68</feat><!-- kut, bū, kird, hāt, būn, hestā, kewit, kirdūwe, nebū, nedečū -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">78</feat><!-- e, Deydey, bē, bikeyn, dekem, dezānī, dečī, dełē, dāyā, heste -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">146</feat><!-- kut, e, bū, kird, Deydey, bē, bikeyn, hāt, būn, dekem -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">146</feat><!-- kut, e, bū, kird, Deydey, bē, bikeyn, hāt, būn, dekem -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="22">
+    <dep name="acl:relcl">1</dep>
+    <dep name="advmod">40</dep>
+    <dep name="aux">2</dep>
+    <dep name="case">54</dep>
+    <dep name="cc">5</dep>
+    <dep name="compound:lvc">56</dep>
+    <dep name="conj">3</dep>
+    <dep name="cop">2</dep>
+    <dep name="det">21</dep>
+    <dep name="discourse">41</dep>
+    <dep name="dislocated">2</dep>
+    <dep name="iobj">35</dep>
+    <dep name="nmod">55</dep>
+    <dep name="nmod:poss">23</dep>
+    <dep name="nsubj">62</dep>
+    <dep name="nummod">9</dep>
+    <dep name="obj">35</dep>
+    <dep name="obl">23</dep>
+    <dep name="parataxis">7</dep>
+    <dep name="punct">149</dep>
+    <dep name="root">138</dep>
+    <dep name="vocative">2</dep>
   </deps>
 </treebank>
