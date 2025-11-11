@@ -1,0 +1,79 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Central_Kurdish-Mukri:
+commit 9191674d7f4f9bb4acd8c080b4eb4767b3aeca53
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 14:40:54 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ckb_mukri'
+Language code (from CoNLL-U file name) = 'ckb'
+Found the following data files: ckb_mukri-ud-dev.conllu, ckb_mukri-ud-test.conllu, ckb_mukri-ud-train.conllu
+Size: counted 765 of 765 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 13 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 477 out of 765 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 21 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang ckb --max-err=10 UD_Central_Kurdish-Mukri/ckb_mukri-ud-dev.conllu
+[Line 6 Sent Mukri__93]: [L3 Warning verbform-fin-without-mood] Finite verb 'e' lacks the 'Mood' feature
+[Line 11 Sent Mukri__94]: [L3 Warning pron-det-without-prontype] The word 'Ewīš' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 13 Sent Mukri__94]: [L3 Warning pron-det-without-prontype] The word 'ew' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 16 Sent Mukri__94]: [L3 Warning verbform-fin-without-mood] Finite verb 'durū' lacks the 'Mood' feature
+[Line 25 Sent Mukri__95]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 31 Sent Mukri__96]: [L3 Warning pron-det-without-prontype] The word 'Ewīš' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 34 Sent Mukri__96]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 36 Sent Mukri__96]: [L3 Warning verbform-fin-without-mood] Finite verb 'bū' lacks the 'Mood' feature
+[Line 42 Sent Mukri__97]: [L3 Warning verbform-fin-without-mood] Finite verb 'Kut' lacks the 'Mood' feature
+[Line 43 Sent Mukri__97]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 41
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ckb --max-err=10 UD_Central_Kurdish-Mukri/ckb_mukri-ud-test.conllu
+[Line 30 Sent Mukri__119]: [L3 Warning pron-det-without-prontype] The word 'mān' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 39 Sent Mukri__120]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 49 Sent Mukri__121]: [L3 Warning verbform-fin-without-mood] Finite verb 'kut' lacks the 'Mood' feature
+[Line 50 Sent Mukri__121]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 54 Sent Mukri__121]: [L3 Warning verbform-fin-without-mood] Finite verb 'e' lacks the 'Mood' feature
+[Line 59 Sent Mukri__122]: [L3 Warning pron-det-without-prontype] The word 'Ew' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 62 Sent Mukri__122]: [L3 Warning pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 63 Sent Mukri__122]: [L3 Warning verbform-fin-without-mood] Finite verb 'kird' lacks the 'Mood' feature
+[Line 71 Sent Mukri__123]: [L3 Warning pron-det-without-prontype] The word 'ew' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 75 Sent Mukri__123]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 33
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ckb --max-err=10 UD_Central_Kurdish-Mukri/ckb_mukri-ud-train.conllu
+[Line 4 Sent Mukri__1]: [L3 Warning pron-det-without-prontype] The word 'ew' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7 Sent Mukri__1]: [L3 Warning pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 17 Sent Mukri__2]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'melāyēk') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 18 Sent Mukri__2]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'melāyēk') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 24 Sent Mukri__3]: [L3 Warning pron-det-without-prontype] The word 'eme' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 36 Sent Mukri__4]: [L3 Warning pron-det-without-prontype] The word 'ew' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 48 Sent Mukri__5]: [L3 Warning pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 61 Sent Mukri__6]: [L3 Warning pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 72 Sent Mukri__7]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent Mukri__7]: [L3 Warning verbform-fin-without-mood] Finite verb 'dekirdewe' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 157
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0) = 0
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.764705882352941) = 0.0849673202614379
+(weight=0.111111111111111) * (score{udeprels}=0.567567567567568) = 0.0630630630630631
+(TOTAL score=0.377166185793637) * (availability=1) * (validity=1) = 0.377166185793637
+STARS = 2
+UD_Central_Kurdish-Mukri	0.377166185793637	2
