@@ -64,12 +64,12 @@
     <dep name="discourse">41</dep>
     <dep name="dislocated">2</dep>
     <dep name="iobj">35</dep>
-    <dep name="nmod">55</dep>
+    <dep name="nmod">57</dep>
     <dep name="nmod:poss">23</dep>
     <dep name="nsubj">62</dep>
     <dep name="nummod">9</dep>
     <dep name="obj">35</dep>
-    <dep name="obl">23</dep>
+    <dep name="obl">21</dep>
     <dep name="parataxis">7</dep>
     <dep name="punct">149</dep>
     <dep name="root">138</dep>
