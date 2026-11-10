@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Central_Kurdish-Mukri:
-commit 38c4d7d8996c26e4c559d6a73be6e4a44e6f3ea7
+commit 65052b1760b00439fa8aaf575d2eb6b5f8f3e738
+Merge: 7643a46 df446f1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 18:55:12 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ckb_mukri'
 Language code (from CoNLL-U file name) = 'ckb'
@@ -55,8 +55,6 @@ Warnings: 33
 /net/work/people/zeman/unidep/tools/validate.py --lang ckb --max-err=10 UD_Central_Kurdish-Mukri/ckb_mukri-ud-train.conllu
 [Line 4 Sent Mukri__1]: [L3 WARNING pron-det-without-prontype] The word 'ew' is tagged 'DET' but it lacks the 'PronType' feature
 [Line 7 Sent Mukri__1]: [L3 WARNING pron-det-without-prontype] The word 'it' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 17 Sent Mukri__2]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'melāyēk') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 18 Sent Mukri__2]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'melāyēk') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 24 Sent Mukri__3]: [L3 WARNING pron-det-without-prontype] The word 'eme' is tagged 'PRON' but it lacks the 'PronType' feature
 [Line 36 Sent Mukri__4]: [L3 WARNING pron-det-without-prontype] The word 'ew' is tagged 'DET' but it lacks the 'PronType' feature
 [Line 48 Sent Mukri__5]: [L3 WARNING pron-det-without-prontype] The word 'y' is tagged 'PRON' but it lacks the 'PronType' feature
@@ -67,10 +65,8 @@ Warnings: 33
 [Line 90 Sent Mukri__9]: [L3 WARNING pron-det-without-prontype] The word 'ī' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
 Warnings: 155
-SYNTAX errors: 2
-*** FAILED *** with 2 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -78,6 +74,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.764705882352941) = 0.0849673202614379
 (weight=0.111111111111111) * (score{udeprels}=0.567567567567568) = 0.0630630630630631
-(TOTAL score=0.377166185793637) * (availability=1) * (validity=0.01) = 0.00377166185793637
-STARS = 0
-UD_Central_Kurdish-Mukri	0.00377166185793637	0
+(TOTAL score=0.377166185793637) * (availability=1) * (validity=1) = 0.377166185793637
+STARS = 2
+UD_Central_Kurdish-Mukri	0.377166185793637	2
